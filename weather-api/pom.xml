@@ -36,7 +36,7 @@
             <id>test</id>
             <build>
               <plugins>
-                <plugin>
+                <!--plugin>
                     <groupId>com.lazerycode.jmeter</groupId>
                     <artifactId>jmeter-maven-plugin</artifactId>
                     <version>1.8.1</version>
@@ -58,7 +58,7 @@
                         <testFilesDirectory>tests</testFilesDirectory>
                         <testResultsTimestamp>false</testResultsTimestamp>
                     </configuration>
-                    </plugin>
+                    </plugin-->
                 </plugins>
             </build>
         </profile>
@@ -66,7 +66,7 @@
             <id>prod</id>
             <build>
               <plugins>
-                <plugin>
+                <!--plugin>
                     <groupId>com.lazerycode.jmeter</groupId>
                     <artifactId>jmeter-maven-plugin</artifactId>
                     <version>1.8.1</version>
@@ -88,7 +88,7 @@
                         <testFilesDirectory>tests</testFilesDirectory>
                         <testResultsTimestamp>false</testResultsTimestamp>
                     </configuration>
-                    </plugin>
+                    </plugin-->
                 </plugins>
             </build>
         </profile>
