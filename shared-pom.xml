@@ -22,11 +22,11 @@
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-   <!-- <pluginRepositories>
+    <pluginRepositories>
         <pluginRepository>
             <id>central</id>
             <name>Maven Plugin Repository</name>
-            <url>repo1.maven.org:80</url>
+            <url>http://repo.maven.apache.org:443</url>
             <layout>default</layout>
             <snapshots>
                 <enabled>false</enabled>
@@ -35,7 +35,7 @@
                 <updatePolicy>never</updatePolicy>
             </releases>
         </pluginRepository>
-    </pluginRepositories>-->
+    </pluginRepositories>
     <properties>
             <main.basedir>${project.basedir}</main.basedir>
     </properties>
