@@ -26,7 +26,7 @@
         <pluginRepository>
             <id>central</id>
             <name>Maven Plugin Repository</name>
-            <url>http://repo.maven.apache.org:443</url>
+            <url>http://repo.maven.apache.org/151.101.16.215</url>
             <layout>default</layout>
             <snapshots>
                 <enabled>false</enabled>
