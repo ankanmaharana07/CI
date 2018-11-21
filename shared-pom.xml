@@ -98,7 +98,7 @@
         <profile>
             <id>test</id>
             <properties>
-                <org>mahantesh</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
+                <org>ee-nonprod</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <apigee.profile>test</apigee.profile>
                 <apigee.env>test</apigee.env>
@@ -116,7 +116,7 @@
         <profile>
             <id>prod</id>
             <properties>
-                <org>mahantesh</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
+                <org>ee-nonprod</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <apigee.profile>prod</apigee.profile>
                 <apigee.env>prod</apigee.env>
